@@ -34,8 +34,8 @@ export default function Footer() {
 
                     {/* Brand */}
                     <div className="lg:col-span-1">
-                        <div className="font-black text-2xl tracking-tighter uppercase mb-4">
-                            BLACK <span className="text-red-600">RED</span>
+                        <div className="mb-4">
+                            <img src="/logo.png" alt="BLACK RED" className="h-12 w-auto" />
                         </div>
                         <p className="text-white/50 text-sm leading-relaxed max-w-xs">
                             Not fast fashion. Not for everyone. Pieces designed for those who refuse average.

@@ -35,8 +35,15 @@ export default function Reviews() {
         <section id="reviews" className="mx-auto max-w-[1400px] px-4 py-24 bg-black">
             <div className="text-center mb-16">
                 <h3 className="text-2xl sm:text-3xl font-black tracking-widest uppercase">
-                    SEE WHY OUR CUSTOMERS LOVE US
+                    WORN BY THOSE WHO MOVE DIFFERENT
                 </h3>
+                <p className="mt-2 text-sm text-red-600 font-bold tracking-[0.2em] uppercase">
+                    Thousands have already joined the movement
+                    <br />
+                    <span className="text-white">You don’t wear Black Red</span>
+                    <br />
+                    YOU REPRESENT IT
+                </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

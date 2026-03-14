@@ -20,12 +20,14 @@ export default function CTABanner() {
                     Winter Drop 01 — Available Now
                 </p>
                 <h2 className="text-4xl sm:text-6xl font-black tracking-tight uppercase leading-none">
-                    Don&apos;t Sleep On
+                    Don&apos;t Miss
                     <br />
                     The Drop
                 </h2>
                 <p className="mt-6 text-white/60 text-lg max-w-lg mx-auto">
-                    Limited quantities. No restocks. Once it&apos;s gone, it&apos;s gone for good.
+                    Limited quantities. No restocks.
+                    <br />
+                    Once it&apos;s gone, it&apos;s gone for good.
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <button

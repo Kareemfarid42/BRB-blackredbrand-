@@ -21,8 +21,8 @@ export default function Hero() {
 
             {/* Nav */}
             <nav className="absolute top-0 w-full z-10 mx-auto max-w-6xl px-4 py-8 flex items-center justify-between left-1/2 -translate-x-1/2">
-                <div className="font-black text-2xl tracking-tighter uppercase">
-                    BLACK <span className="text-red-600">RED</span>
+                <div className="flex items-center">
+                    <img src="/logo.png" alt="BLACK RED" className="h-10 w-auto" />
                 </div>
                 <div className="hidden sm:flex items-center gap-8 text-sm font-bold tracking-widest uppercase text-white/90">
                     <a href="#collection" className="hover:text-red-500 transition-colors">Collection</a>
@@ -37,16 +37,22 @@ export default function Hero() {
                     <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-tight uppercase">
                         WINTER <br /> DROP 01
                     </h1>
-                    <p className="mt-4 text-xl text-white/90 font-medium">
-                        Limited Streetwear Collection
+                    <p className="mt-4 text-l text-white/90 font-medium">
+                        LIMITED STREETWEAR BUILT FOR THOSE WHO REFUSE TO BLEND IN.
                     </p>
-                    <div className="mt-8">
+                    <p className="mt-2 text-sm text-red-600 font-bold tracking-[0.2em] uppercase">
+                        Minimal - Bold - Unapologetic
+                    </p>
+                    <div className="mt-8 flex flex-col items-center w-fit">
                         <button
                             onClick={scrollToCollection}
                             className="bg-red-700 hover:bg-red-800 px-10 py-4 font-black text-sm tracking-widest uppercase transition-all duration-300"
                         >
-                            SHOP NOW
+                            SHOP THE DROP
                         </button>
+                        <p className="mt-4 text-[10px] text-white/40 font-bold tracking-[0.2em] uppercase text-center">
+                            Limited quantities
+                        </p>
                     </div>
                 </div>
             </div>

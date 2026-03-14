@@ -49,8 +49,11 @@ export default function Collection() {
         <section id="collection" className="mx-auto max-w-[1400px] px-4 py-20 bg-black">
             <div className="text-center mb-16">
                 <h2 className="text-3xl sm:text-4xl font-black tracking-widest uppercase">
-                    LIMITED WINTER COLLECTION
+                    LIMITED DROP • PREMIUM STREETWEAR • BUILT TO STAND OUT
                 </h2>
+                <p className="mt-2 text-sm text-red-600 font-bold tracking-[0.2em] uppercase">
+                    Wear something that represents individuality, confidence, and originality
+                </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
