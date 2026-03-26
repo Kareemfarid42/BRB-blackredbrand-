@@ -17,7 +17,7 @@ export default function CTABanner() {
             </div>
             <div className="relative mx-auto max-w-[1400px] px-4 py-28 text-center">
                 <p className="text-xs font-black tracking-[0.4em] uppercase text-red-600 mb-6">
-                    Winter Drop 01 — Available Now
+                    The Drop — Available Now
                 </p>
                 <h2 className="text-4xl sm:text-6xl font-black tracking-tight uppercase leading-none">
                     Don&apos;t Miss

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "BLACK RED — Winter Drop 01",
+    title: "BLACK RED — The Drop",
     description:
         "Limited streetwear collection. Heavy, premium, and made for those who refuse average.",
 };

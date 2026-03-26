@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pt-20">
                 <div className="max-w-xl">
                     <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-tight uppercase">
-                        WINTER <br /> DROP 01
+                        THE DROP
                     </h1>
                     <p className="mt-4 text-l text-white/90 font-medium">
                         LIMITED STREETWEAR BUILT FOR THOSE WHO REFUSE TO BLEND IN.
